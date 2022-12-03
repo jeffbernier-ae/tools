@@ -1,0 +1,61 @@
+body { background-color: linen; }
+h1 { color: maroon; margin-left: 40px; }
+form {
+    padding: 1em;
+    background: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    margin: 1rem 0 0 1rem;
+    max-width: 600px;
+}
+label {
+    display: block;
+}
+input {
+    background: #fff;
+    border: 1px solid #9c9c9c;
+    display: block;
+}
+input[type=text] {
+    width: 40%;
+}
+input[type=checkbox] {
+    display: inline-block;
+    transform: scale(1.5);
+    margin-right: .75rem;
+}
+label.ckbox {
+    display: inline-block;
+}
+select {
+    padding: .3rem;
+}
+form button {
+    background: lightgrey;
+    padding: 0.7em;
+    width: 100%;
+    border: 0;
+}
+form button:hover {
+    background: gold;
+}
+label {
+    padding: 0.5em 0.5em 0.5em 0;
+}
+input {
+    padding: 0.7em;
+    margin-bottom: 0.5rem;
+}
+textarea {
+    width: 600px;
+    margin: 0 0 0 1rem;
+    height: 500px;
+}
+
+input:focus { outline: 3px solid gold; }
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 1.25em;
+}
